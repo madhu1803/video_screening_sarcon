@@ -94,6 +94,10 @@
 			display: block;
 		}
 
+		/* .sideContent {
+			width: 30%;
+		} */
+
 		.sideContent2 {
 			display: none;
 		}
@@ -115,6 +119,12 @@
 
 		.sideContentAd {
 			background-color: #eee;
+		}
+
+		.menu_icon.open {
+			position: absolute;
+			right: 10px;
+			background-position: -40px center;
 		}
 	</style>
 	<!-- Make the first tab active by default -->
@@ -535,8 +545,17 @@
 			</div>
 		</div>
 	</div>
+	<!--screening UI buttons -->
+	<div class="screening-btns">
+		<button type="button" class="btn btn-danger qa-btn">Q & A</button>
+		<button type="button" class="btn btn-danger audience-btn">Audience Interaction</button>
+		<button type="button" class="btn btn-danger polling-btn">Polling</button>
+		<button type="button" class="btn btn-danger d-none dummy-btn">Danger</button>
 
+	</div>
+	<!-- image and video -->
 	<div class="row">
+
 		<div class="col-sm-12">
 			<div class="laptop-wrapper">
 				<iframe width="560" height="315" src="./Video Stream_files/f4Kcg6n1qao.html"
@@ -544,7 +563,7 @@
 			</div>
 		</div>
 	</div>
-
+	<!-- tab content -->
 	<div class="menu_icon" style="position: absolute;right: 1em;font-size: 1.5em;">
 	</div>
 
@@ -692,7 +711,7 @@
 	</script>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		crossorigin="anonymous"></script>

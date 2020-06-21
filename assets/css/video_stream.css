@@ -587,7 +587,7 @@ a {
 }
 
 /* image  */
-@media (max-height: 600x) {
+@media (max-height: 600px) {
     div.laptop-wrapper iframe {
         box-sizing: border-box;
         background: url(https://storage.googleapis.com/sarconasiabucket/SaffronSynergies/Auditorium%20Template5.png) center center no-repeat !important;
@@ -608,9 +608,42 @@ a {
         background-size: contain !important;
         padding: 11% 20% 25% !important;
         position: absolute !important;
-        top: 120px !important;
+        top: 90px !important;
         left: 0 !important;
         width: 100% !important;
         height: 100% !important;
     }
+}
+
+/* screeing buttons */
+.screening-btns {
+    position: relative;
+    top: 10px;
+    right: 25px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+
+}
+
+.screening-btns .qa-btn,
+.screening-btns .audience-btn,
+.screening-btns .polling-btn,
+.screening-btns .dummy-btn {
+    position: absolute;
+    right: 0;
+    z-index: inherit;
+}
+
+.screening-btns .qa-btn {
+    top: 250px;
+}
+
+.screening-btns .audience-btn {
+    top: 300px;
+
+}
+
+.screening-btns .polling-btn {
+    top: 350px;
 }
