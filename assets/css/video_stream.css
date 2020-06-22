@@ -697,6 +697,14 @@ a {
     width: 33%;
 }
 
+.tab button:hover {
+    background-color: #838383;
+}
+
+.tab button.active {
+    background-color: #2C2C2C;
+}
+
 @media(max-width:768px) {
     .tab {
         overflow: hidden;
@@ -707,6 +715,26 @@ a {
     .tab .tablinks {
         color: white !important;
     }
+}
+
+/*sidebar overall container */
+.sideContent {
+    width: 22%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #2c2c2c;
+    color: white !important;
+}
+
+.sideContent2 {
+    background-color: #838383;
+    color: white !important;
+}
+
+.sideContentAd {
+    background-color: #2C2C2C;
 }
 
 #example-messages {
