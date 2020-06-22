@@ -26,6 +26,17 @@ function display() {
   $("#chat-modal-btn").toggleClass("d-none");
 }
 
-$(".menu").click(function () {
+$(".audience-btn").click(function () {
   $(".menu_icon").click();
+  $("#chat_button").click();
+});
+
+$(".qa-btn").click(function () {
+  $(".menu_icon").click();
+  $("#qa_button").click();
+});
+
+$(".polling-btn").click(function () {
+  $(".menu_icon").click();
+  $("#poll_button").click();
 });
