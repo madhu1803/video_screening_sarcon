@@ -648,3 +648,72 @@ a {
 .screening-btns .polling-btn {
     top: 350px;
 }
+
+@media(max-height:320px) {
+    .screening-btns {
+        position: relative;
+        top: 0;
+        right: 25px;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+
+    }
+
+    .screening-btns .qa-btn,
+    .screening-btns .audience-btn,
+    .screening-btns .polling-btn,
+    .screening-btns .dummy-btn {
+        position: absolute;
+        right: 0;
+        z-index: inherit;
+        width: 40px !important;
+    }
+
+    .screening-btns .qa-btn {
+        top: 40px;
+    }
+
+    .screening-btns .audience-btn {
+        top: 50px;
+
+    }
+
+    .screening-btns .polling-btn {
+        top: 60px;
+    }
+}
+
+/* tabs  */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #494949;
+    width: 100%;
+}
+
+.tab .tablinks {
+    color: white !important;
+    width: 33%;
+}
+
+@media(max-width:768px) {
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #494949;
+    }
+
+    .tab .tablinks {
+        color: white !important;
+    }
+}
+
+#example-messages {
+    background: #696969 !important;
+    color: white !important;
+}
+
+.example-chat header {
+    display: none !important;
+}
