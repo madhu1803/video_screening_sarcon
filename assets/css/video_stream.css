@@ -633,6 +633,7 @@ a {
     position: absolute;
     right: 0;
     z-index: inherit;
+    width: 50px !important;
 }
 
 .screening-btns .qa-btn {
