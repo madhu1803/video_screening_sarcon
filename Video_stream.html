@@ -31,6 +31,7 @@
 			margin-top: -10% !important;
 			overflow-x: hidden !important;
 			font-family: 'Montserrat', sans-serif;
+			overflow: hidden !important;
 		}
 
 		/*video*/
@@ -42,7 +43,7 @@
 
 
 
-		.tab button {
+		.tab.tab-sidebar button {
 			background-color: inherit;
 			float: left;
 			border: none;
@@ -543,7 +544,7 @@
 	</div>
 
 	<div class="sideContent" style="width: 0%;">
-		<div class="tab">
+		<div class="tab tab-sidebar">
 			<button class="tablinks active"
 				onclick="ToggleSidebar(&#39;.tablinks&#39;,$(this).index(),&#39;.frame&#39;)" id="chat_button">
 				Chat
@@ -613,6 +614,7 @@
 			</div>
 		</center>
 	</div>
+	<button class="btn btn-primary">back</button>
 
 	<script type="text/javascript">
 		setInterval(function () {

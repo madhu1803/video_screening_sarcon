@@ -688,7 +688,7 @@ a {
 }
 
 /* tabs  */
-.tab {
+.tab.tab-sidebar {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #494949;
@@ -696,27 +696,27 @@ a {
     font-family: 'Montserrat', sans-serif !important;
 }
 
-.tab .tablinks {
+.tab.tab-sidebar .tablinks {
     color: white !important;
     width: 33%;
 }
 
-.tab button:hover {
+.tab.tab-sidebar button:hover {
     background-color: #838383;
 }
 
-.tab button.active {
+.tab.tab-sidebar button.active {
     background-color: #2C2C2C;
 }
 
 @media(max-width:768px) {
-    .tab {
+    .tab.tab-sidebar {
         overflow: hidden;
         border: 1px solid #ccc;
         background-color: #494949;
     }
 
-    .tab .tablinks {
+    .tab.tab-sidebar .tablinks {
         color: white !important;
     }
 }
