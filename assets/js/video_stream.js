@@ -25,3 +25,7 @@ function display() {
   $("#notification-btn").toggleClass("d-none");
   $("#chat-modal-btn").toggleClass("d-none");
 }
+
+$(".menu").click(function () {
+  $(".menu_icon").click();
+});

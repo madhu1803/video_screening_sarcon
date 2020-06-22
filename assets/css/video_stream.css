@@ -5,6 +5,7 @@
     background-color: #133882;
     color: white;
     position: relative;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 #businessCardModal .modal-dialog .modal-content .modal-header i {
@@ -147,6 +148,7 @@
     bottom: 30px;
     right: 100px;
     z-index: 1000;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 #quick-network-chat-btn span,
