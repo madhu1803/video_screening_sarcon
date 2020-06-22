@@ -693,6 +693,7 @@ a {
     border: 1px solid #ccc;
     background-color: #494949;
     width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .tab .tablinks {
